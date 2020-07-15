@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_public_black_24dp"
+        android:title="World Report">
+    </item>
+
+    <item
+        android:id="@+id/fav"
+        android:icon="@drawable/ic_person_pin_circle_black_24dp"
+        android:title="Country Report">
+    </item>
+<!--
+    <item
+        android:id="@+id/helpline"
+        android:icon="@drawable/ic_phone_black_24dp"
+        android:title="HelpLines">
+    </item>
+-->
+   <!-- <item
+        android:id="@+id/Symptoms"
+        android:icon="@drawable/ic_local_hospital_black_24dp"
+        android:title="HelpLines">
+    </item>
+-->
+
+</menu>

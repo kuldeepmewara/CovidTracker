@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="portrait"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+   <ListView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       >
+
+   </ListView>
+
+    <!--
+    <TextView
+        android:textSize="20dp"
+        android:textColor="@color/colorBlack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Symptoms"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:id="@+id/textView3" />
+
+    <ScrollView
+        android:layout_below="@id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/c1"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_alignStart="@+id/c4"
+        android:layout_below="@+id/textView3"
+        android:elevation="20dp"
+        app:cardCornerRadius="10dp">
+
+        <ImageView
+            android:id="@+id/i1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/t3"
+            android:layout_alignEnd="@+id/t1"
+            android:background="#e2e8f8"
+            android:src="@drawable/cold" />
+
+
+    </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/c1"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:layout_alignStart="@+id/c4"
+            android:layout_below="@+id/textView3"
+            android:elevation="20dp"
+            app:cardCornerRadius="10dp">
+
+            <ImageView
+                android:id="@+id/i1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/t3"
+                android:layout_alignEnd="@+id/t1"
+                android:background="#e2e8f8"
+                android:src="@drawable/cold" />
+
+
+        </android.support.v7.widget.CardView>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/t4"
+        android:layout_below="@+id/c1"
+        android:layout_marginStart="18dp"
+        android:text="Cold"
+        android:textColor="@color/blue_black_darker"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/c2"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_alignStart="@+id/c5"
+
+        android:layout_below="@+id/textView3"
+        android:elevation="20dp"
+        app:cardCornerRadius="10dp">
+
+        <ImageView
+            android:id="@+id/i2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView3"
+            android:background="#e2e8f8"
+            android:src="@drawable/cough" />
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView4"
+        android:layout_below="@+id/c2"
+        android:layout_marginEnd="14dp"
+        android:text="Cough"
+        android:textColor="@color/blue_black_darker"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/c3"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_alignStart="@+id/c6"
+
+        android:layout_alignTop="@+id/c2"
+        android:elevation="20dp"
+        app:cardCornerRadius="10dp">
+
+        <ImageView
+            android:id="@+id/i3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView3"
+            android:background="#e2e8f8"
+            android:src="@drawable/high_fever" />
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/c3"
+        android:layout_below="@+id/c3"
+        android:layout_marginEnd="11dp"
+        android:text="High fever"
+        android:textColor="@color/blue_black_darker"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:elevation="20dp"
+        android:layout_marginTop="150dp"
+        android:layout_below="@+id/textView3"
+        android:layout_marginLeft="40dp"
+        app:cardCornerRadius="10dp"
+
+        android:id="@+id/c4">
+
+        <ImageView
+            android:id="@+id/i4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignStart="@+id/c4"
+            android:layout_below="@+id/t2"
+            android:background="#e2e8f8"
+            android:src="@drawable/headache" />
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/c4"
+        android:layout_below="@+id/c4"
+        android:layout_marginEnd="11dp"
+        android:text="Headache"
+        android:textColor="@color/blue_black_darker"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:elevation="20dp"
+        android:layout_marginTop="150dp"
+        android:layout_below="@+id/textView3"
+        android:layout_marginLeft="150dp"
+        app:cardCornerRadius="10dp"
+
+        android:id="@+id/c5">
+
+        <ImageView
+            android:id="@+id/i5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView3"
+            android:background="#e2e8f8"
+            android:src="@drawable/vomiting" />
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/t5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/t2"
+        android:layout_below="@+id/c5"
+        android:text="Vomiting"
+        android:textColor="@color/blue_black_darker"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:elevation="20dp"
+        android:layout_marginTop="150dp"
+        android:layout_below="@+id/textView3"
+        android:layout_marginLeft="260dp"
+        app:cardCornerRadius="10dp"
+
+        android:id="@+id/c6">
+
+        <ImageView
+            android:id="@+id/i6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView3"
+            android:background="#e2e8f8"
+            android:src="@drawable/dyspnoea" />
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/t6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/t3"
+        android:layout_below="@+id/c6"
+        android:text="Dyspnoea"
+        android:textColor="@color/blue_black_darker"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:textSize="20dp"
+        android:textColor="@color/colorBlack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prevention"
+        android:layout_below="@+id/t5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:id="@+id/textView4" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/c7"
+        android:layout_width="100dp"
+        android:layout_alignStart="@+id/c4"
+        android:layout_height="120dp"
+        android:layout_below="@+id/textView4"
+        android:elevation="20dp"
+        app:cardCornerRadius="10dp">
+
+        <ImageView
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="false"
+            android:id="@+id/i7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#e2e8f8"
+            android:src="@drawable/images" />
+
+
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/t7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/t4"
+        android:layout_below="@+id/c7"
+        android:text="Stay Home"
+        android:textColor="@color/blue_black_darker"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/c8"
+        android:layout_width="100dp"
+        android:layout_alignStart="@+id/c5"
+        android:layout_height="120dp"
+        android:layout_below="@+id/textView4"
+        android:elevation="20dp"
+        app:cardCornerRadius="10dp">
+
+        <ImageView
+            android:id="@+id/i8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#e2e8f8"
+            android:src="@drawable/wash_hand" />
+
+
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/t8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/c8"
+        android:layout_below="@+id/c8"
+        android:text="Wash Hands"
+        android:textColor="@color/blue_black_darker"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/c9"
+        android:layout_width="100dp"
+        android:layout_alignStart="@+id/c6"
+        android:layout_height="120dp"
+        android:layout_below="@+id/textView4"
+        android:elevation="20dp"
+        app:cardCornerRadius="10dp">
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:id="@+id/i9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#e2e8f8"
+            android:src="@drawable/download" />
+
+
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/t9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/c9"
+        android:layout_below="@+id/c9"
+        android:text="Social Distancing"
+        android:textColor="@color/blue_black_darker"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+   -->
+
+</RelativeLayout>
